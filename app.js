@@ -7,7 +7,7 @@ var cors = require('cors');
 var dotenv = require("dotenv").config();
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-var adminUserRouter = require('./routes/admin/users');
+var adminUserRouter = require('./routes/admin/users'); 
 var restrauntRouter = require('./routes/admin/restraunts');
 
 
